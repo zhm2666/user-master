@@ -1,0 +1,14 @@
+syntax = "proto3";
+option go_package = "crontab/proto";
+package user_crontab.zvoice.com;
+
+message TokenRequest {
+  string appid = 1;
+}
+message TokenResponse {
+  string accessToken = 1;
+}
+
+service Token {
+  rpc GetToken(TokenRequest) returns(TokenResponse){}
+}

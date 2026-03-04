@@ -1,0 +1,7 @@
+http:
+  ip: 0.0.0.0
+  port: 9080
+wx_official:
+  appid: "wx1de82ff40caec834"
+  secret: "24bdd6877eec2c45706485cce8db8ec8"
+  msgToken: "c824bdd6877eec2c45706706485cce8db8e"

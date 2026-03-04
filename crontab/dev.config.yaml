@@ -1,0 +1,20 @@
+server:
+  host: "0.0.0.0"
+  port: 50052
+  access_token: "1de8wxcaec832d644bdd6db8ec82c45706"
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  pwd: ""
+mysql:
+  dsn: "root:root@tcp(127.0.0.1:3306)/mediahub?collation=utf8mb4_unicode_ci&charset=utf8mb4"
+  maxLifeTime: 3600
+  maxOpenConn: 10
+  maxIdleConn: 10
+log:
+  # panic,fatal,error,warn,warning,info,debug,trace
+  level: "info"
+  logPath: "runtime/logs/app.log"
+wx_officials:
+- appid: "wx1de82ff40caec834"
+  secret: "24bdd6877eec2c45706485cce8db8ec8"
